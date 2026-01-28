@@ -3,7 +3,6 @@ pipeline {
 
     tools { 
         maven 'Maven_3.8.4'  // Use your Jenkins Maven tool name
-        jdk 'Java_17'         // Make sure Java version matches your project
     }
 
     environment {
